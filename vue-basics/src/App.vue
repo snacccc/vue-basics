@@ -1,20 +1,21 @@
-<template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link>
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
-
-</template>
-
-<script>
-
-  export default {
-    name: "Home",
-    components: {},
-  };
+<script setup>
 
 </script>
 
+<template>
+  <header>
+ 
+    <div id="app">
+      <div id="nav">
+        <RouterLink to="/">Home</RouterLink>
+        <RouterLink to="/about">About</RouterLink>
+      </div>
+    </div>
+  </header>
+
+  <RouterView />
+</template>
+
+<style scoped>
+
+</style>
