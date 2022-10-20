@@ -1,9 +1,15 @@
+<template>
+   <div class="home">
+      <header>
+         This is the home page
+      </header>
+   </div>
+</template>
+
 <script setup>
 
 </script>
 
-<template>
- <header>
-    This is the Home Page
- </header>
-</template>
+<style>
+
+</style>
