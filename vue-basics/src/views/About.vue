@@ -1,15 +1,25 @@
 <template>
   <div class="about">
-    <header>
+    
+    <header class="header">
       This is the about page
     </header>
+
+    <p class="description">
+      Why are you still here? This website is terrible. I have no idea what I'm doing. I'm just glad at least this is working and I understand it.
+    </p>
+
   </div>
 </template>
 
-<script>
+<style scoped>
 
-</script>
+  .about {
+    padding: 1rem;
+  }
 
-<style>
+  .header {
+    font-size: 1.2rem;
+  }
 
 </style>

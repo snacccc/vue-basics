@@ -9,6 +9,7 @@
       <div class="nav">
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/yes">...</RouterLink>
       </div>
     </div>
   </header>
@@ -29,6 +30,7 @@
     justify-content: space-between;
     padding: 1rem;
     width: 30rem;
+    font-size: 2rem;
   }
 
 </style>
