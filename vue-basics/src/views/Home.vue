@@ -9,15 +9,15 @@
       </p>
    
       <div class="buttons">
-         <button @click="clicked = !clicked" class="btn showButton">
+         <Button @click="clicked = !clicked">
             Button
-         </button>
+         </Button>
 
          <p v-if="clicked" class="btnReaction">Wow it's working, you're still here. Have another button.</p>
 
-         <button v-if="clicked" @click="count++" class="btn counterBtn">
+         <Button v-if="clicked" @click="count++">
             {{ count }}
-         </button>
+         </Button>
 
          <p v-if="clicked">This one counts the amount of times you've clicked it.</p>
 
@@ -32,15 +32,20 @@
 <script>
 
 
+   import Button from "../components/Button.vue";
+
    export default {
-      data() {
-         return {
+    name: "home",
+    compontents: {
+        Button,
+    },
+    data() {
+        return {
             count: 0,
             clicked: false,
-           
-         }
-      }
-   }
+        };
+    },
+}
    
 </script>
 
@@ -52,20 +57,6 @@
 
    .header {
       font-size: 1.2rem;
-   }
-
-   .btn {
-      width: 6rem;
-      height: 3rem;
-      cursor: pointer;
-      border: none;
-      border-radius: 1rem;
-      box-shadow: 0px 8px gray;
-   }
-
-   .btn:active {
-      transform: translateY(4px);
-      box-shadow: 0px 4px gray;
    }
 
    .buttons {
