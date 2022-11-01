@@ -6,7 +6,7 @@
     </header>
 
     <p class="description">
-      Why are you still here? This website is terrible. I have no idea what I'm doing. I'm just glad at least this is working and I understand it.
+      Why are you still here? This website is terrible. I have no idea what I'm doing. I'm just glad at least this is working.
     </p>
 
   </div>
